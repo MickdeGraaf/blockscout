@@ -24,17 +24,17 @@
       </div>
     </div>
 
-    <div class="row footer-info">
+    <!--<div class="row footer-info">
       <div class="col-12">
         <%= gettext("Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.") %>
       </div>
-    </div>
+    </div> %> -->
 
     <% other_explorers = other_explorers() %>
 
     <% col_size = if Enum.empty?(other_explorers), do: 4, else: 3 %>
 
-    <div class="row">
+    <!-- div class="row">
       <div class="col-md-<%= col_size %> footer-list">
         <h3>BlockScout</h3>
         <hr>
@@ -95,4 +95,6 @@
       </div>
     <% end %>
   </div>
+
+  -->
 </footer>

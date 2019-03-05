@@ -397,4 +397,4 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 
 ## Running for the PepChain
 
-LOGO=/images/pepchain_logo.svg NETWORK="PepChain" SUBTWORK="Churchill Testnet" COIN="PEP" mix phx.server 
+LOGO=/images/pepchain_logo.svg NETWORK="PepChain" SUBNETWORK="Churchill Testnet" COIN="PEP" ETHEREUM_JSONRPC_TRACE_URL="http://89.46.74.157:8545/" ETHEREUM_JSONRPC_HTTP_URL="http://89.46.74.157:8545/" ETHEREUM_JSONRPC_WS_URL="89.46.74.157:8546" mix phx.server 
